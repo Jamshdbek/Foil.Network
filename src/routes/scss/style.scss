@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body_up {
+    width: 100%;
+    height: 110vh;
+    background-image: url('https://s3-alpha-sig.figma.com/img/5c12/4141/435c6cf25af14300b7d1c820603dc11c?Expires=1659916800&Signature=gA72e6ME-TscnMDxXQ5rjxLrMGDik0rj28zXgyKeL0215~YzUMtIhuHGujYVq1zslwXkfxxTW6lqLtEu8H9Cf-QCYWDpqbCl802GiFtNgjzKke8xVl8RzJyKe6ZSA7Svpj8aNordZVHq3aaj7Ua-6DsnURP0A1MbJiEziQusf7TJqGkf0HbyVoLDMGmnT7cdZSB0WakIRuvCWZ6jaL~ZIgoMs4A9r~gxEG5rUv40rVySSgzfJNiSAok-pLh7eA08AKcolhA5~R1wI2grvkuS~gAr7TuUoRFAzpirgSFOyp1r9FU5lQsvUkQ8sriHL33BwigfXn4jyEED2mADBqTNUg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    bleed: color dodge;
+    background-size: cover;
+    position: relative;
+
+    .main_text {
+        margin-left: 20%;
+        padding-top: 5%;
+        position: absolute;
+        font-size: 5vh;
+
+        #one {
+
+            color: #fff;
+        }
+
+        #two {
+            color: #E40ECF;
+        }
+
+        #there {
+            color: #21D4FD;
+        }
+
+    }
+
+    .box_center {
+        width: 50px;
+        height: 30px;
+        margin: auto;
+        padding-top: 5%;
+
+        img {
+            margin: auto;
+            width: 20vh;
+
+        }
+
+    }
+
+    .blue_top {
+        width: 100px;
+        height: 100px;
+        padding-right: 50vh;
+        float: right;
+
+        img {
+            width: 12vh;
+        }
+    }
+
+    .box_right {
+        width: 14vh;
+        position: absolute;
+        margin-top: 10%;
+
+        mix-blend-mode: normal;
+        filter: blur(13px);
+        transform: rotate(-9.25deg);
+    }
+
+    .box_priz {
+        width: 30vh;
+        position: absolute;
+        top: 40%;
+        z-index: 2;
+        mix-blend-mode: screen;
+        transform: rotate(10.92deg);
+    }
+
+    .box_left {
+        float: left;
+        width: 10vh;
+        transform: rotate(45.16deg);
+    }
+
+    .blue_left {
+        width: 10vh;
+        position: absolute;
+        left: 10%;
+        transform: rotate(-55.14deg);
+        top: 40%;
+
+    }
+
+    .asto {
+        width: 100%;
+        position: absolute;
+        height: 50vh;
+        margin: auto;
+        margin-top: 20vh;
+
+        img {
+            width: 100%;
+            height: 90vh;
+            margin: auto;
+        }
+    }
+
+    .enter_button {
+        width: 22vh;
+        height: 7vh;
+        background: linear-gradient(262.17deg, #21D4FD -9.98%, #E40ECF 62.2%);
+        border-radius: 7px;
+        color: #fff;
+        border: none;
+        position: absolute;
+        margin-left: -20%;
+        margin-top: 15%;
+        z-index: 2;
+    }
+
+    .box_button_left {
+        width: 10vh;
+        top: 60%;
+        position: absolute;
+        left: 10%;
+    }
+
+    .text_learn {
+        width: 60vh;
+        height: 30vh;
+        position: absolute;
+        top: 70%;
+        left: 20%;
+
+        h3 {
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            color: hsl(0, 13%, 94%);
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    }
+
+    .box_end {
+        width: 30vh;
+        left: -55%;
+        position: absolute;
+        top: 30%;
+        z-index: 2;
+        transform: rotate(81.57deg);
+    }
+
+}
+
+.body_main {}
